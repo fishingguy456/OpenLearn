@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: blueviolet;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+#lessons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#lessons li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f5f5dc;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#lessons li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#tasks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tasks li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #4df068;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#tasks li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#courses {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#courses li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f36661;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#courses li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#Input {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
