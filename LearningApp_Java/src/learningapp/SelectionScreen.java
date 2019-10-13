@@ -301,14 +301,14 @@ public class SelectionScreen extends javax.swing.JFrame {
             UI u = new UI();
             Teacher t = new Teacher(userName, userAge, interests, degrees, u.getEmail(), u.getPassword());
             this.setVisible(false);
-            CourseSelection ccs = new CourseSelection();
-            ccs.setVisible(true);
+            CourseCreation cc = new CourseCreation();
+            cc.setVisible(true);
         }if(!teacherOrNot){
             UI u = new UI();
             Student s = new Student(userName, userAge, interests, studentSchool, u.getEmail(), u.getPassword());
             this.setVisible(false);
-            CourseCreation cc = new CourseCreation();
-            cc.setVisible(true);
+            CourseSelection ccs = new CourseSelection();
+            ccs.setVisible(true);
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
