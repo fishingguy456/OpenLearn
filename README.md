@@ -22,3 +22,9 @@ We learned that learning a new language or a new framework is very hard and take
 
 ## What's next for OpenLearn
 We will make OpenLearn an open-source project! We also hope to fix/add a few more functionalities to make the web app fully functional.
+
+## Java Application
+https://github.com/fishingguy456
+
+## React Web App
+https://github.com/harditthecoder
